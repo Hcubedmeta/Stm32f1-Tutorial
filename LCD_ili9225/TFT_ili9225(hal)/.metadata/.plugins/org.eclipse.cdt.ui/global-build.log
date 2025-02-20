@@ -1,0 +1,14 @@
+23:07:36 **** Incremental Build of configuration Debug for project MPU6050 ****
+make -j12 all 
+arm-none-eabi-size  MPU6050.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30224	    468	   2176	  32868	   8064	MPU6050.elf
+Finished building: default.size.stdout
+ 
+23:07:39 **** Incremental Build of configuration Debug for project MPU6050 ****
+make -j12 all 
+arm-none-eabi-size  MPU6050.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30224	    468	   2176	  32868	   8064	MPU6050.elf
+Finished building: default.size.stdout
+ 

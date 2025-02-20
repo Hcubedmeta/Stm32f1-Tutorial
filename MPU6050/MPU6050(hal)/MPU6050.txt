@@ -1,0 +1,84 @@
+Configuration	MPU6050
+STM32CubeMX 	6.12.0
+Date	10/18/2024
+MCU	STM32F103RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SPI2	Half-Duplex Master	SPI2_MOSI	PB15
+SPI2	Half-Duplex Master	SPI2_SCK	PB13
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+15	PA1	GPIO_Output	LCD_RS
+16	PA2	GPIO_Output	LCD_CS
+17	PA3	GPIO_Output	LCD_RST
+34	PB13	SPI2_SCK	
+36	PB15	SPI2_MOSI	
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+58	PB6	I2C1_SCL	
+59	PB7	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SPI2	Half-Duplex Master	SPI2_MOSI	PB15
+SPI2	Half-Duplex Master	SPI2_SCK	PB13
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+15	PA1	GPIO_Output	LCD_RS
+16	PA2	GPIO_Output	LCD_CS
+17	PA3	GPIO_Output	LCD_RST
+34	PB13	SPI2_SCK	
+36	PB15	SPI2_MOSI	
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+58	PB6	I2C1_SCL	
+59	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : MPU6050
+Project Folder : C:\Users\Hoang\Documents\embedded code\code stm32\STM32f1rct6\MPU6050\MPU6050
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.6
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
